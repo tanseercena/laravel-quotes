@@ -2,7 +2,11 @@
 
 >This package allows you get quotes in Artisan command or get quotes in your laravel application.
 
+
 **WARNING**: The package is still under development so try to not use in production.
+[![License](https://poser.pugx.org/tanseercena/laravel-quotes/license)](https://packagist.org/packages/tanseercena/laravel-quotes)
+[![Monthly Downloads](https://poser.pugx.org/tanseercena/laravel-quotes/d/monthly)](https://packagist.org/packages/tanseercena/laravel-quotes)
+[![Daily Downloads](https://poser.pugx.org/tanseercena/laravel-quotes/d/daily)](https://packagist.org/packages/tanseercena/laravel-quotes)
 
 ## Installation
 [Laravel](https://laravel.com/) 5+ and [Composer](https://getcomposer.org) are required.
