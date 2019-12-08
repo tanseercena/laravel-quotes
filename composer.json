@@ -1,0 +1,27 @@
+{
+    "name": "tanseercena/laravel-quotes",
+    "description": "A Laravel package which provides quotes.",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanseer UL Hassan",
+            "email": "tanseercena@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Tanseercena\\Quotes\\": "src/"
+      }
+    },
+    "extras": {
+      "laravel": {
+        "providers": [
+          "Tanseercena\\Quotes\\QuotesServiceProvider"
+        ]
+      }
+    }
+}
