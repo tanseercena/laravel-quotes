@@ -12,7 +12,7 @@ class QuotesCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'quotes';
+    protected $signature = 'quote';
 
     /**
      * The console command description.
@@ -40,7 +40,7 @@ class QuotesCommand extends Command
     {
         $quotes = new Quotes();
         $quote = $quotes->getQuotes();
-        
+
         if(!$quote){
           $this->error("Can't find any quote.");
           return;
